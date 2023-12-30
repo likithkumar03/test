@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Slab:wght@800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <span>Mart</span>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">service</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+            <p>"Exploring aisles of endless possibilities at the supermarket – where cravings meet convenience"</p>
+            <button>ADD to cart</button>
+
+        </div>
+    </div>
+    </div>
+    <div class="login">
+        <h1>Person Details</h1>
+        <form action="" class="form">
+            <div class="name">
+                <label>Name</label>
+                <input type="text" id="name" placeholder="Enter your Name">
+            </div>
+            <div class="email">
+                <label for="">Email</label>
+                <input type="Email" id="email" placeholder="Enter your Email">
+            </div>
+            <div class="number">
+                <label for="">Phone Number</label>
+                <input type="Number" id="number" placeholder="Enter your PhoneNumber">
+            </div>
+            <div class="place">
+                <label for="">Place</label>
+                <input type="text" id="place" placeholder="Enter your Place">
+            </div>
+
+        </form>
+    </div>
+    <div class="login">
+        <h1>Bill items</h1>
+        <form action="" class="items">
+            <div class="vegetables">
+                <label>Vegetables</label>
+                <input type="number" id="vegetables">
+            </div>
+            <div class="fruits">
+                <label>Fruits</label>
+                <input type="number" id="fruits">
+            </div>
+            <div class="groceries">
+                <label>Groceries</label>
+                <input type="number" id="groceries">
+            </div>
+            <div class="dryfruits">
+                <label>Dry Fruits</label>
+                <input type="number" id="dryfruits">
+            </div>
+        </form>
+        <button class="button" onclick="payment()">Payment</button>
+        <p class="paymentDetails"></p>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
